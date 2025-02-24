@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Science & Technology",
+        "description": "Discover the latest in science, technology, and innovations.",
+        "image": "science-tech.jpg"
+    },
+    {
+        "id": 2,
+        "name": "History",
+        "description": "Dive into the past with historical accounts and events.",
+        "image": "history.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Self-Help",
+        "description": "Books that help you improve personally and professionally.",
+        "image": "self-help.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Business & Economics",
+        "description": "Learn about business strategies, management, and market trends.",
+        "image": "business.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Children's Books",
+        "description": "Fun, engaging, and educational books for kids.",
+        "image": "children.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Comics & Graphic Novels",
+        "description": "Visual storytelling with comics and graphic novels.",
+        "image": "comics.jpg"
+    }
+]
