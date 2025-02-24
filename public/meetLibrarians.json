@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Sarah Johnson",
+        "designation": "Chief Librarian",
+        "image": "https://i.ibb.co.com/hRNGcZC7/kensoehner.jpg",
+        "description": "Over 10 years of experience in managing libraries and helping readers find the right books.",
+        "location": "Downtown Public Library, New York",
+        "salary": "$50,000 per year",
+        "contact": "sarah@example.com"
+    },
+    {
+        "name": "David Smith",
+        "designation": "Research Librarian",
+        "image": "https://i.ibb.co.com/Wpz17yHP/Librarian-Helping-Student-960.png",
+        "description": "Specializes in academic research support and digital resource management.",
+        "location": "City Central Library, Los Angeles",
+        "salary": "$45,000 per year",
+        "contact": "david@example.com"
+    },
+    {
+        "name": "Emily Brown",
+        "designation": "Children's Section Librarian",
+        "image": "https://i.ibb.co.com/Mk5nw9rM/Librarianship.jpg",
+        "description": "Passionate about helping young readers discover the joy of books.",
+        "location": "Greenwood Community Library, Chicago",
+        "salary": "$42,000 per year",
+        "contact": "emily@example.com"
+    }
+]
