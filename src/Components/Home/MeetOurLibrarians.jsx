@@ -14,7 +14,7 @@ const MeetOurLibrarians = () => {
         <div className="mt-8">
             <SectionTitle title={'Meet Our Librarians'}></SectionTitle>
             <div className="flex gap-4 my-5 px-2  items-center flex-col md:flex-row ">
-                {librarians.map(librarian => <div>
+                {librarians.map(librarian => <div key={librarian._id}>
                     <div className=" rounded-xl border-2 border-black p-4  ">
                         <figure >
                             <img className="rounded-xl"

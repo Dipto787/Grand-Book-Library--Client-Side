@@ -1,0 +1,85 @@
+{
+    "overall_rating": 4.8,
+    "total_reviews": 1500,
+    "ratings_breakdown": {
+      "5_stars": 1100,
+      "4_stars": 250,
+      "3_stars": 90,
+      "2_stars": 40,
+      "1_star": 20
+    },
+    "average_rating_per_category": {
+      "fiction": 4.9,
+      "non_fiction": 4.7,
+      "science": 4.6,
+      "technology": 4.8,
+      "history": 4.5,
+      "biography": 4.7,
+      "children_books": 4.9,
+      "self_help": 4.8,
+      "education": 4.7
+    },
+    "recent_reviews": [
+      {
+        "user": "JohnDoe123",
+        "rating": 5,
+        "comment": "Great selection of books and easy to purchase!",
+        "date": "2025-02-24"
+      },
+      {
+        "user": "BookLover99",
+        "rating": 4,
+        "comment": "Good service, but would love more payment options.",
+        "date": "2025-02-22"
+      },
+      {
+        "user": "ReaderX",
+        "rating": 5,
+        "comment": "Fantastic experience! Highly recommended.",
+        "date": "2025-02-20"
+      },
+      {
+        "user": "SarahReads",
+        "rating": 5,
+        "comment": "Amazing variety and fast delivery!",
+        "date": "2025-02-18"
+      },
+      {
+        "user": "TechGeek",
+        "rating": 4,
+        "comment": "Great for tech books, but some were overpriced.",
+        "date": "2025-02-15"
+      },
+      {
+        "user": "HistoryBuff",
+        "rating": 5,
+        "comment": "Loved the collection of history books!",
+        "date": "2025-02-12"
+      },
+      {
+        "user": "EmilyWrites",
+        "rating": 3,
+        "comment": "Decent selection, but delivery took too long.",
+        "date": "2025-02-10"
+      },
+      {
+        "user": "MarkZ",
+        "rating": 2,
+        "comment": "Some books were out of stock after ordering.",
+        "date": "2025-02-08"
+      },
+      {
+        "user": "AnnaReads",
+        "rating": 5,
+        "comment": "Perfect for book lovers! Will buy again.",
+        "date": "2025-02-06"
+      },
+      {
+        "user": "JayC",
+        "rating": 4,
+        "comment": "Good service but shipping cost was high.",
+        "date": "2025-02-04"
+      }
+    ]
+  }
+  
