@@ -1,0 +1,314 @@
+[
+    {
+        "name": "Freelance: The Ultimate Guide",
+        "details": "A practical guide to starting and succeeding as a freelancer, covering everything from setting rates to managing clients.",
+        "rating": 4.6,
+        "image": "https://i.ibb.co.com/nsj5K2pc/305923.png",
+        "id": 32,
+        "category": "Freelancing",
+        "tag": [
+            "Freelance",
+            "Business"
+        ]
+    },
+    {
+        "name": "The Freelancer's Bible",
+        "details": "A comprehensive resource for freelancers, covering all aspects of the freelance lifestyle.",
+        "rating": 4.7,
+        "image": "https://i.ibb.co.com/wrKfxMcV/cover-mockup.png",
+        "id": 33,
+        "category": "Freelancing",
+        "tag": [
+            "Freelance",
+            "Guide"
+        ]
+    },
+    {
+        "name": "Remote: Office Not Required",
+        "details": "A guide to working remotely, written by the founders of the popular job platform Basecamp.",
+        "rating": 4.7,
+        "image": "https://i.ibb.co.com/v6YCj99w/freelancer-Success-Book-whats-inside.jpg",
+        "id": 34,
+        "category": "Freelancing",
+        "tag": [
+            "Remote Work",
+            "Freelance"
+        ]
+    },
+    {
+        "name": "The $100 Startup",
+        "details": "A guide for entrepreneurs looking to start a business with minimal investment and maximum impact.",
+        "rating": 4.8,
+        "image": "https://i.ibb.co.com/JFBDLXrK/8fdd75770-194484.png",
+        "id": 35,
+        "category": "Freelancing",
+        "tag": [
+            "Business",
+            "Entrepreneurship"
+        ]
+    },
+    {
+        "name": "The History of the Ancient World",
+        "details": "An in-depth exploration of the history of ancient civilizations from the earliest records to the fall of Rome.",
+        "rating": 4.8,
+        "image": "https://i.ibb.co.com/N6MQ9y2P/be2d74b257fbc0765107b3f7aff7d4a7.jpg",
+        "id": 27,
+        "category": "History",
+        "tag": [
+            "Ancient Civilizations",
+            "Rome"
+        ]
+    },
+    {
+        "name": "Sapiens: A Brief History of Humankind",
+        "details": "Yuval Noah Harari’s sweeping narrative of humanity’s past, from the Stone Age to the modern era.",
+        "rating": 4.7,
+        "image": "https://i.ibb.co.com/wF5wT7gJ/9781942426271.jpg",
+        "id": 28,
+        "category": "History",
+        "tag": [
+            "Human History",
+            "Anthropology"
+        ]
+    },
+    {
+        "name": "Guns, Germs, and Steel",
+        "details": "A provocative analysis of the factors that shaped the modern world, including geography and human ecology.",
+        "rating": 4.6,
+        "image": "https://i.ibb.co.com/R4BJ758w/Oxford-History-Project-Book-2-Peter-Moss.png",
+        "id": 29,
+        "category": "History",
+        "tag": [
+            "Human Evolution",
+            "Geography"
+        ]
+    },
+    {
+        "name": "The Silk Roads: A New History of the World",
+        "details": "An exploration of the historic trade routes that connected East and West and their influence on world history.",
+        "rating": 4.8,
+        "image": "https://i.ibb.co.com/qQXzm87/cover.jpg",
+        "id": 30,
+        "category": "History",
+        "tag": [
+            "Trade",
+            "World History"
+        ]
+    },
+    {
+        "name": "The History of Modern China",
+        "details": "A thorough exploration of China’s history, focusing on the transformations of the 19th and 20th centuries.",
+        "rating": 4.7,
+        "image": "https://i.ibb.co.com/Y7Mv8R9y/22.jpg",
+        "id": 31,
+        "category": "History",
+        "tag": [
+            "China",
+            "Modern History"
+        ]
+    },
+    {
+        "name": "The Elements of Style",
+        "details": "A classic book on English writing style, offering advice on grammar and usage.",
+        "rating": 4.6,
+        "image": "https://i.ibb.co.com/wFrdCMbB/download-15.jpg",
+        "id": 22,
+        "category": "English",
+        "tag": [
+            "Writing",
+            "Grammar"
+        ]
+    },
+    {
+        "name": "Word Power Made Easy",
+        "details": "A vocabulary builder book that teaches powerful words to expand one's vocabulary.",
+        "rating": 4.8,
+        "image": "https://i.ibb.co.com/rfpYvjCz/download-14.jpg",
+        "id": 23,
+        "category": "English",
+        "tag": [
+            "Vocabulary",
+            "Language"
+        ]
+    },
+    {
+        "name": "English Grammar in Use",
+        "details": "An essential book for anyone learning English, with exercises and clear explanations of grammar.",
+        "rating": 4.7,
+        "image": "https://i.ibb.co.com/9mS6KPc6/download-13.jpg",
+        "id": 24,
+        "category": "English",
+        "tag": [
+            "Grammar",
+            "Learning"
+        ]
+    },
+    {
+        "name": "The Elements of Eloquence",
+        "details": "An engaging exploration of rhetorical techniques used by great speakers and writers.",
+        "rating": 4.5,
+        "image": "https://i.ibb.co.com/jPtRd0nz/download-12.jpg",
+        "id": 25,
+        "category": "English",
+        "tag": [
+            "Rhetoric",
+            "Language"
+        ]
+    },
+    {
+        "name": "The Oxford English Dictionary",
+        "details": "The definitive resource for anyone looking to explore the richness and history of the English language.",
+        "rating": 4.9,
+        "image": "https://i.ibb.co.com/FLfFCtcJ/download-11.jpg",
+        "id": 26,
+        "category": "English",
+        "tag": [
+            "Reference",
+            "Language"
+        ]
+    },
+    {
+        "bookId": 1,
+        "name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://i.ibb.co.com/khHN7Pk/9780143454212.jpg",
+        "details": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+        "totalPages": 192,
+        "rating": 4.5,
+        "category": "Classic",
+        "tags": [
+            "Fiction",
+            "Romance"
+        ],
+        "publisher": "Scribner",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 2,
+        "name": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co.com/0cv102J/To-Kill-a-Mockingbird.webp",
+        "details": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+        "totalPages": 281,
+        "rating": 4.8,
+        "category": "Fiction",
+        "tags": [
+            "Drama",
+            "Social Justice"
+        ],
+        "publisher": "J.B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 3,
+        "name": "1984",
+        "author": "George Orwell",
+        "image": "https://i.ibb.co.com/MprDyVt/51-BIA4rrae-L-AC-UF1000-1000-QL80.jpg",
+        "details": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+        "totalPages": 328,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": [
+            "Dystopian",
+            "Political"
+        ],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 4,
+        "name": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.ibb.co.com/tYSWRfG/catcherrye-edited-1-800x.png",
+        "details": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+        "totalPages": 224,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": [
+            "Young Adult",
+            "Identity"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 5,
+        "name": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "https://i.ibb.co.com/YdQDMpn/81me-ud-V63-L-AC-UF1000-1000-QL80.jpg",
+        "details": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+        "totalPages": 279,
+        "rating": 4.7,
+        "category": "Classic",
+        "tags": [
+            "Romance",
+            "Satire"
+        ],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "name": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co.com/xS8YvxL/81m-CE-uclx-L-UF1000-1000-QL80.jpg",
+        "details": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+        "totalPages": 310,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": [
+            "Adventure",
+            "Epic"
+        ],
+        "publisher": "Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": 7,
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "image": "https://i.ibb.co.com/989qMRW/42844155.jpg",
+        "details": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+        "totalPages": 309,
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": [
+            "Magic",
+            "Young Adult"
+        ],
+        "publisher": "Bloomsbury",
+        "yearOfPublishing": 1997
+    },
+    {
+        "bookId": 8,
+        "name": "The Alchemist",
+        "author": "Paulo Coelho",
+        "image": "https://i.ibb.co.com/zS9jsdK/18144590.jpg",
+        "details": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+        "totalPages": 177,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": [
+            "Philosophical",
+            "Adventure"
+        ],
+        "publisher": "HarperCollins",
+        "yearOfPublishing": 1988
+    },
+    {
+        "bookId": 9,
+        "name": "The Girl on the Train",
+        "author": "Paula Hawkins",
+        "image": "https://i.ibb.co.com/P6hfCmJ/Whats-App-Image-2024-05-22-at-11-21-25-2e21ae46.jpg",
+        "details": "'The Great Gatsby' by F. Scott Fitzgerald is a timeless masterpiece that delves into the decadence and disillusionment of the Jazz Age. Set in the Roaring Twenties, the novel unveils the enigmatic Jay Gatsby's extravagant parties, masking a pursuit of lost love. Narrated by Nick Carraway, the story explores themes of wealth, love, and the American Dream, drawing readers into a vivid portrayal of the glittering yet elusive world of the East and West Egg. Fitzgerald's prose is both poetic and haunting, weaving a compelling narrative that transcends its era. A poignant exploration of societal excess and the human condition, 'The Great Gatsby' remains a literary gem that resonates across generations.",
+        "totalPages": 316,
+        "rating": 4.2,
+        "category": "Mystery",
+        "tags": [
+            "Suspense",
+            "Psychological"
+        ],
+        "publisher": "Riverhead Books",
+        "yearOfPublishing": 2015
+    }
+]
