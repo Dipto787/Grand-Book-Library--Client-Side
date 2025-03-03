@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import banner from '../../assets/Service/Library 1.jpg'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import BookCard from "./bookCard";
 const Books = () => {
     let [books, setBooks] = useState([]);
     let [cards, setCards] = useState([]);
@@ -16,20 +17,21 @@ const Books = () => {
         fetch('orginaldata.json')
             .then(res => res.json())
             .then(data => setBooks(data))
-    }, [books])
+    }, [])
 
     let handleBooks = (e) => {
-        console.log(e)
-        books.map(book => {
-            if (e === book.category) {
-                setCards(book);
-            }
-        })
+        let datas = books.filter(cate => e === cate.category);
+        return setCards(datas);
+
     }
+
+
+
+
     return (
         <div>
 
-            <div >
+            <div>
                 <div
                     className="hero  min-h-screen"
                     style={{
@@ -67,21 +69,37 @@ const Books = () => {
                                     </figure>
                                     <div className="card-body">
                                         <h2 className="card-title">{book.name}</h2>
-                                        <p>{book.details.slice(0,100)}</p>
+                                        <p>{book.details.slice(0, 100)}</p>
                                         <div className="card-actions justify-end">
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="btn btn-primary">Add To Cart</button>
                                         </div>
                                     </div>
                                 </div>)
                             }
                         </div>
                     </TabPanel>
-                    <TabPanel>df</TabPanel>
-                    <TabPanel>df</TabPanel>
-                    <TabPanel>df</TabPanel>
-                    <TabPanel>df</TabPanel>
-                    <TabPanel>df</TabPanel>
-                    <TabPanel>df</TabPanel>
+                    <TabPanel>
+                        <BookCard books={cards}></BookCard>
+                    </TabPanel>
+                    <TabPanel>
+                        <BookCard books={cards}></BookCard>
+                    </TabPanel>
+                    <TabPanel>
+                        <BookCard books={cards}></BookCard>
+                    </TabPanel>
+                    <TabPanel>
+                        <BookCard books={cards}></BookCard>
+                    </TabPanel>
+                    <TabPanel>
+                        <BookCard books={cards}></BookCard>
+                    </TabPanel>
+                    <TabPanel>
+                        <BookCard books={cards}></BookCard>
+                    </TabPanel>
+                    <TabPanel>
+                        <BookCard books={cards}></BookCard>
+                    </TabPanel>
+
                 </Tabs>
             </div>
 
