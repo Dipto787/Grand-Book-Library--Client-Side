@@ -44,8 +44,7 @@ const Books = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-
+            </div> 
             {/* Tabs */}
             <div className="mt-4">
                 <Tabs>

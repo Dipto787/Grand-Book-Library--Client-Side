@@ -1,13 +1,25 @@
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { AuthContext } from "../Components/Provider/AuthProvider";
 
 const Navbar = () => {
+    let { user } = useContext(AuthContext);
     let Link = <>
-    <li><NavLink to='/'>Home</NavLink></li>
-    <li><NavLink to='/books'>Books</NavLink></li>
-    <li><NavLink to='/dashboard'>Dashboard</NavLink></li>
-    <li><NavLink to='/about'>About</NavLink></li>
-    <li><NavLink to='/login'>Login</NavLink></li>
-    <li><NavLink to='/register'>Register</NavLink></li>
+        <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink to='/books'>Books</NavLink></li>
+        <li><NavLink to='/dashboard'>Dashboard</NavLink></li>
+        <li><NavLink to='/about'>About</NavLink></li>
+        {
+            user ?
+                <div>
+                    <h3 className="btn bg-green-500"> {user?.displayName}</h3>
+                    <button className="btn bg-blue-500 border-none text-white ml-3">Logout</button>
+                </div> :
+                <>
+                    <li><NavLink to='/login'>Login</NavLink></li>
+                    <li><NavLink to='/register'>Register</NavLink></li>
+                </>
+        }
     </>
     return (
         <div>
@@ -31,14 +43,14 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm text-black dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        {Link}
+                            {Link}
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl"> <img width={50} src="/src/assets/Logo/logo.png" alt="" /> Grand Book Library</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                       {Link}
+                        {Link}
                     </ul>
                 </div>
                 <div className="navbar-end ">

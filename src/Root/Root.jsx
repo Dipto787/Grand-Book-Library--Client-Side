@@ -1,13 +1,20 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
- const Root = () => {
+const Root = () => {
+    let location = useLocation();
+    console.log(location)
     return (
         <div className="max-w-7xl mx-auto">
-            <Navbar></Navbar>
+            <div>
+                {location.pathname === '/register' && '/login' ? undefined : <Navbar></Navbar>}
+            </div>
             <Outlet></Outlet>
-            <Footer></Footer>
+            <div>
+                {location.pathname === '/register' && '/login' ? undefined : <Footer></Footer>}
+            </div>
+
         </div>
     );
 };
