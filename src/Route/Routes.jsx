@@ -4,6 +4,7 @@ import Home from "../Components/Home/Home";
 import Books from "../Pages/Books/Books";
 import Register from "../Pages/Authontication/Register";
 import Login from "../Pages/Authontication/Login";
+import ProtectedRoute from "../Components/Provider/ProtectedRoute";
 
 let router=createBrowserRouter([
     {
@@ -16,7 +17,7 @@ let router=createBrowserRouter([
             },
             {
                 path:'/books',
-                element:<Books></Books>
+                element:<ProtectedRoute><Books></Books></ProtectedRoute>
             },
             {
                 path:'/register',

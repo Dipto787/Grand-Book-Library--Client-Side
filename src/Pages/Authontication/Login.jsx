@@ -1,24 +1,32 @@
 import { useContext, useEffect, useState } from "react";
 import { useForm } from "react-hook-form"
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Components/Provider/AuthProvider";
 import { loadCaptchaEnginge, LoadCanvasTemplate, validateCaptcha } from 'react-simple-captcha';
+import { FaGoogle } from "react-icons/fa6";
 
 const Login = () => {
-    let { signinUser } = useContext(AuthContext);
+    let { signinUser, continueWithGoogle } = useContext(AuthContext);
     let [valid, setValid] = useState(true);
+    let location = useLocation();
+    console.log(location)
     let navigate = useNavigate();
     const {
         register,
         handleSubmit,
         formState: { errors },
     } = useForm();
-
+    let handleGoogleLogin=()=>{
+        continueWithGoogle()
+        .then(res=>{
+            navigate(location?.state || '/');
+        })
+    }
     let sub = (e) => {
         signinUser(e.email, e.password)
             .then(res => {
                 console.log(res.user)
-                navigate('/');
+                navigate(location?.state || '/');
             })
     }
     useEffect(() => {
@@ -55,13 +63,16 @@ const Login = () => {
                         <label className="label">
                             <LoadCanvasTemplate></LoadCanvasTemplate>
                         </label>
-                        <input type="text" onBlur={handleValidCaptcha} name="captcha" placeholder="write the captcha" className="input input-bordered" required />
+                        <input type="text" onBlur={handleValidCaptcha} name="captcha" placeholder="write the captcha" className="input input-bordered" />
 
                     </div>
                     <div className="form-control mt-6">
-                        <button disabled={valid} className="btn btn-primary">Login</button>
+                        <button disabled={false} className="btn btn-primary">Login</button>
                     </div>
+
                     <p>Don`t have an account? please <Link to={'/register'} className="text-blue-600 underline">Register</Link></p>
+
+                    <button onClick={handleGoogleLogin} className="btn w-full bg-purple-600 text-white font-bold "><FaGoogle size={22}></FaGoogle> Continue With Google</button>
                 </form>
             </div>
 

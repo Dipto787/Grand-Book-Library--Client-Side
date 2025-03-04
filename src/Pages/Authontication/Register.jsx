@@ -33,6 +33,15 @@ const Register = () => {
                         <input type="text" {...register('name', { required: true })} placeholder="name" className="input input-bordered" />
                         {errors.name && <span className="text-red-600 mt-2 font-semibold">This field is required</span>}
                     </div>
+
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">PhotoUrl</span>
+                        </label>
+                        <input type="text" {...register('photo', { required: true })} placeholder="upload photo" className="input input-bordered" />
+                        {errors.photo && <span className="text-red-600 mt-2 font-semibold">This field is required</span>}
+                    </div>
+
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Email</span>

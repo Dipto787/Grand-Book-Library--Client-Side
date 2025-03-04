@@ -3,7 +3,9 @@ import banner from '../../assets/Service/Library 1.jpg'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import BookCard from "./bookCard";
+import UseAxiosSecure from "../../Components/Hooks/UseAxiosSecure";
 const Books = () => {
+    let axiosSecure = UseAxiosSecure();
     let [books, setBooks] = useState([]);
     let [cards, setCards] = useState([]);
     let categories = ['Freelancing'];
@@ -13,11 +15,8 @@ const Books = () => {
             categories.push(book.category);
         };
     };
-    useEffect(() => {
-        fetch('orginaldata.json')
-            .then(res => res.json())
-            .then(data => setBooks(data))
-    }, [])
+    axiosSecure.get('/books')
+        .then(res => setBooks(res.data))
 
     let handleBooks = (e) => {
         let datas = books.filter(cate => e === cate.category);
@@ -44,7 +43,7 @@ const Books = () => {
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
             {/* Tabs */}
             <div className="mt-4">
                 <Tabs>
