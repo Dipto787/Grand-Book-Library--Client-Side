@@ -15,15 +15,37 @@ const Books = () => {
             categories.push(book.category);
         };
     };
-    axiosSecure.get('/books')
-        .then(res => setBooks(res.data))
+
+    let [currentPage, setCurrentPage] = useState(0);
+    let [count, setCount] = useState(0);
+    let [perPage, setPerPage] = useState(10);
+
+
+    axiosSecure.get('/bookCount')
+        .then(res => setCount(res.data.counted));
+
+
+    useEffect(() => {
+        axiosSecure.get(`/books?page=${currentPage}&size=${perPage}`)
+            .then(res => setBooks(res.data))
+    }, [currentPage, perPage])
+
+
+
+    // axiosSecure.get(`/books`)
+    //     .then(res => setBooks(res.data))
+
+
+
+    let pages = [...Array(Math.ceil(count / perPage)).keys()];
+    console.log(pages)
 
     let handleBooks = (e) => {
+        setCurrentPage(0);
         let datas = books.filter(cate => e === cate.category);
         return setCards(datas);
 
     }
-
 
 
 
@@ -99,6 +121,14 @@ const Books = () => {
                     </TabPanel>
 
                 </Tabs>
+                <div className="text-center my-6">
+                    {
+                        pages.map(page => (<button onClick={() => setCurrentPage(page)}
+
+                            className={`btn mr-4 border-2  ${page === currentPage ? 'bg-blue-500 text-white' : ''} px-8 text-center`}>{page}</button>
+                        ))
+                    }
+                </div>
             </div>
 
         </div>

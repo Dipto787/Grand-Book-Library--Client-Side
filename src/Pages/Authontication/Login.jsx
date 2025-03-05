@@ -36,7 +36,7 @@ const Login = () => {
     const handleValidCaptcha = (e) => {
         let user_captcha_value = e.target.value;
         if (validateCaptcha(user_captcha_value)) {
-            setValid(false)
+            setValid(false);
         } else {
             setValid(true);
         }
