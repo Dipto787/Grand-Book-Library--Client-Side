@@ -5,6 +5,8 @@ import Books from "../Pages/Books/Books";
 import Register from "../Pages/Authontication/Register";
 import Login from "../Pages/Authontication/Login";
 import ProtectedRoute from "../Components/Provider/ProtectedRoute";
+import Dashboard from "../Pages/Dashboard/Dashboard";
+import MyCart from "../Pages/Dashboard/MyCart";
 
 let router=createBrowserRouter([
     {
@@ -26,6 +28,17 @@ let router=createBrowserRouter([
             {
                 path:'/login',
                 element:<Login></Login>
+            }
+        ], 
+    },
+    {
+        path:'/dashboard',
+        element:<Dashboard></Dashboard>,
+        children:[
+         
+            {
+                path:'myCart',
+                element:<MyCart></MyCart>
             }
         ]
     }
